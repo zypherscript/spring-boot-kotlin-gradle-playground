@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    id("org.springframework.boot") version "2.7.6"
+    id("org.springframework.boot") version "2.7.10"
     id("io.spring.dependency-management") version "1.0.15.RELEASE"
     kotlin("jvm") version "1.6.21"
     kotlin("plugin.spring") version "1.6.21"
@@ -33,7 +33,7 @@ dependencies {
     }
     testImplementation("org.junit.jupiter:junit-jupiter-api")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
-    testImplementation("com.ninja-squad:springmockk:3.0.1")
+    testImplementation("com.ninja-squad:springmockk:4.0.2")
     kapt("org.springframework.boot:spring-boot-configuration-processor")
 }
 
